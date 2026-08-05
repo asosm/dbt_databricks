@@ -6,7 +6,6 @@ sources:
     schema: landing
     tables:
       - name: orders
-      - name: customers
       - name: products
       - name: users
       - name: reviews
