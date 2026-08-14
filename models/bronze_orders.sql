@@ -1,4 +1,5 @@
-SELECT 
-* 
-FROM 
-dbt_project_catalog.landing.orders
+select
+*
+from
+-- dbt_project_catalog.landing.orders
+{{source('landing', 'orders') }}
